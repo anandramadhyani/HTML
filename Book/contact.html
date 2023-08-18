@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Contact Us
+        </title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Anand Ramadhyani">
+        <meta name="description" content="This page conatins the contact form.">
+        <link rel="shortcut icon" href="img/favicon.webp" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                Contact Us
+            </h1>
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="index.html#category">Categories</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/contact.png" alt="Contact Us" width="400">
+                <figcaption>
+                    Suggest a Book
+                </figcaption>
+            </figure>
+        </header>
+        <hr>
+        <main>
+            <article>
+                <h2>
+                    Contact Form
+                </h2>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>
+                            Send Us a Message
+                        </legend>
+                        <div>
+                            <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="your email">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="message">Your Message:</label>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here."></textarea>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <button>Send</button>
+                        <button>Reset</button>
+                    </div>
+                </form>
+            </article>
+            <hr>
+
+            <article>
+                <h2>
+                    Newsletter
+                </h2>
+                <div>
+                    <p>
+                        <button type="button">Subscribe</button> to join our Newsletter
+                    </p>
+                </div>
+            </article>
+            <br>
+            <a href="#">Back to Top</a>
+            <hr>
+        </main>
+        <footer>
+            <p>
+                Copyright &copy; Suggest a Book
+            </p>
+        </footer>
+    </body>
+</html>
